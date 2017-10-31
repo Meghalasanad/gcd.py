@@ -37,7 +37,7 @@ Example output:
         = 777*193 + 652*-230
 """
 
-def calc_gcd(a, b):
+def calc_gcd(a, b):#function definition
     """
     Calculate the gcd of a and b.
 
