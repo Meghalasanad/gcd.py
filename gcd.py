@@ -42,7 +42,7 @@ def calc_gcd(a, b):
     Calculate the gcd of a and b.
 
     Returns a tuple of (gcd,table) where gcd is the result and table is a list
-    of tuples (a,b,q,r) for each recursive step, such that a = b*q + r.
+    of tuples (a,b,q,r) for each recursive step, such that a = b*q + r.a
     """
     assert a >= b and a > 0 and b > 0
     r = a % b
