@@ -55,7 +55,7 @@ def calc_gcd(a, b):
         table = [(a,b,q,r)] + table
         return gcd,table
 
-def calc_xy(a, b, table, sofar=None):
+def calc_xy(a, b, table, sofar=None):#function definition
     """
     Calculate x and y for the given gcd calculation for a and b such that
       a*x + b*y == gcd(a,b)
